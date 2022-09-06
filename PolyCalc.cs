@@ -9,7 +9,7 @@ namespace PolynomialApp {
             
 
             Monomial[] polynomial1 = new Monomial[] {new Monomial(1, 2), new Monomial(1, 1), new Monomial(5, 0)}; // x^2 + x + 5
-            Monomial[] polynomial2 = new Monomial[] {new Monomial(2, 3), new Monomial(1, 2), new Monomial(5, 1),new Monomial(3, 0)}; // x^2 + x + 5
+            Monomial[] polynomial2 = new Monomial[] {new Monomial(2, 3), new Monomial(1, 2), new Monomial(5, 1),new Monomial(3, 0)}; // 2x^3 + x^2 + 5x + 3 
 
             Monomial[] resultPolynomial = Consolidate(Multiply(polynomial1,polynomial2));
             foreach(Monomial m in resultPolynomial)
